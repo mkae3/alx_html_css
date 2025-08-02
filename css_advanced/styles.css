@@ -308,28 +308,38 @@ blockquote footer {
 }
 
 /* Footer */
-.main-footer {
+.footer {
   background-color: #071629;
-  color: #fff;
-  text-align: center;
-  padding: 40px 20px;
-}
-
-.footer-nav {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin: 20px 0;
-  padding: 0;
-}
-
-.footer-nav li a {
   color: white;
-  text-decoration: none;
+  padding: 60px 20px 30px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-.main-footer .logo {
-  width: 140px;
-  margin-bottom: 10px;
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 20px;
 }
+
+.footer-logo {
+  height: 40px;
+}
+
+.footer-socials a img {
+  height: 30px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.footer-socials a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #ffffffcc;
+}
+
